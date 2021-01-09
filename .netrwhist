@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/Users/jonathanhigger/ThrowAway/vim_n_morty/vim-and-morty-frontend'
+let g:netrw_dirhist_4='/Users/jonathanhigger/ThrowAway/vim_n_morty/vim-and-morty-frontend/src'
+let g:netrw_dirhist_3='/Users/jonathanhigger/ThrowAway/vim_n_morty/vim-and-morty-frontend'
+let g:netrw_dirhist_2='/Users/jonathanhigger/ThrowAway/vim_n_morty/vim-and-morty-frontend/public'
+let g:netrw_dirhist_1='/Users/jonathanhigger/ThrowAway/vim_n_morty/vim-and-morty-frontend'
+let g:netrw_dirhist_0='/Users/jonathanhigger/ThrowAway/vim_n_morty/vim_n_morty_backend'
+let g:netrw_dirhist_9='/Users/jonathanhigger/ThrowAway/shittyapi'
+let g:netrw_dirhist_8='/Users/jonathanhigger/ThrowAway/shittyapi/app'
+let g:netrw_dirhist_7='/Users/jonathanhigger/ThrowAway/shittyapi'
+let g:netrw_dirhist_6='/Users/jonathanhigger/ThrowAway/shittyapi/public'
