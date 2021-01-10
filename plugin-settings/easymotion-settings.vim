@@ -1,3 +1,3 @@
 
 "easymotion
-map <Leader> <Plug>(easymotion-prefix)
+map s <Plug>(easymotion-prefix)

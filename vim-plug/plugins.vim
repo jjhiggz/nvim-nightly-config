@@ -43,6 +43,8 @@ Plug 'preservim/nerdtree' |
       \ Plug 'Xuyuanp/nerdtree-git-plugin' |
       \ Plug 'ryanoasis/vim-devicons'
 
+Plug 'neoclide/coc-snippets'
+
 Plug 'kyazdani42/nvim-web-devicons'
 " Plug 'ryanoasis/vim-devicons'
 
@@ -82,9 +84,10 @@ Plug 'junegunn/fzf', {'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
 Plug 'dart-lang/dart-vim-plugin'
+Plug 'iamcco/coc-flutter'
 Plug 'natebosch/vim-lsc'
+" Plug 'natebosch/vim-lsc-dart'
 Plug 'natebosch/vim-lsc-dart'
-
 "Easy Motion lets you move around easily
 Plug 'easymotion/vim-easymotion'
 
@@ -99,7 +102,7 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend upda
 Plug 'nvim-treesitter/playground' " If you want to make your own custom colorscheme
 
 "Floaterm is a floating terminal
-Plug 'voldikss/vim-floaterm'
+" Plug 'voldikss/vim-floaterm'
 
 
 

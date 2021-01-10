@@ -1,3 +1,5 @@
+
+let g:mapleader="\\"
 " Better nav for omnicomplete
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
@@ -37,3 +39,14 @@ vnoremap > >gv
 
 
 nnoremap <leader>cd :cd %:p:h<CR>:pwd<CR>
+
+" find buffers
+map <leader>fb :Buffers<CR>
+
+" quit buffers
+nnoremap <leader>qq :q<Cr>
+
+" reload vim
+nnoremap <leader>rl :so ~/.config/nvim-nightly/init.vim<CR>
+
+colorscheme gruvbox

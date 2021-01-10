@@ -1,4 +1,4 @@
-" ==================================================
+" =================================================
 "
 "     ____.               ____   ____.__
 "    |    | ____   ____   \   \ /   /|__| _____
@@ -8,8 +8,6 @@
 "                     \/                      \/
 "
 " ==================================================
-
-
 
 
 " Call all plugins on load
@@ -30,6 +28,9 @@ source $HOME/.config/nvim-nightly/plugin-settings/NERDTree-settings.vim
 " easymotion Settings
 source $HOME/.config/nvim-nightly/plugin-settings/easymotion-settings.vim
 
+"flutter settings
+source $HOME/.config/nvim-nightly/plugin-settings/flutter-settings.vim
+
 " vimwiki Settings
 source $HOME/.config/nvim-nightly/plugin-settings/vimwiki.vim
 
@@ -40,8 +41,7 @@ source $HOME/.config/nvim-nightly/general/settings.vim
 source $HOME/.config/nvim-nightly/keys/mappings.vim
 
 
-"related to dart plugin
-let g:lsc_auto_map = v:true
+
 
 set guifont=Droid\ Sans\ Mono\ Nerd\ Font\ Complete:h11
 
@@ -50,6 +50,3 @@ set guifont=Droid\ Sans\ Mono\ Nerd\ Font\ Complete:h11
 " Vue Config
 autocmd BufRead,BufNewFile *.vue setfiletype html
 
-map <Leader>fb :Buffers<CR>
-
-colorscheme gruvbox

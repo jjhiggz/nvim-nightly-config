@@ -1,5 +1,6 @@
 "set leader key
 let g:mapleader = "\<Space>"
+
 syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set nowrap                              " Display long lines as just one line
@@ -44,5 +45,3 @@ set encoding=UTF-8
 "" You can't stop me
 cmap w!! w !sudo tee % 
 
-nnoremap <leader>qq :q<Cr>
-nnoremap <leader>rl :so ~/.config/nvim/init.vim<CR>
