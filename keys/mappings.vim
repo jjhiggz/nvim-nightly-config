@@ -49,3 +49,8 @@ nnoremap <leader>qq :q<Cr>
 " reload vim
 nnoremap <leader>rl :so ~/.config/nvim-nightly/init.vim<CR>
 
+"coc-mappings
+source $HOME/.config/nvim-nightly/keys/coc-mappings.vim
+
+"
+

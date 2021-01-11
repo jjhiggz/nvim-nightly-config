@@ -5,7 +5,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'christoomey/vim-tmux-navigator'  
 
 " lightline is a status bar for vim
- Plug 'itchyny/lightline.vim'
+Plug 'itchyny/lightline.vim'
 
 " vimwiki is a note taking plugin
 Plug 'vimwiki/vimwiki'  
@@ -68,7 +68,7 @@ Plug 'preservim/nerdcommenter'
 Plug 'https://github.com/tpope/vim-fugitive.git'
 
 "emmet abbreviations for vscode
-Plug 'mattn/emmet-vim'
+" Plug 'mattn/emmet-vim'
 
 " neoclide is an autocomplete plugin
 Plug 'neoclide/coc.nvim', { 'branch': 'release'}
