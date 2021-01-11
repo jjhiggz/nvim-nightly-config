@@ -40,13 +40,6 @@ source $HOME/.config/nvim-nightly/general/settings.vim
 " Get nvim mappings
 source $HOME/.config/nvim-nightly/keys/mappings.vim
 
-
-
-
-set guifont=Droid\ Sans\ Mono\ Nerd\ Font\ Complete:h11
-
-" let g:AutoClosePairs = {'(': ')', '{': '}', '[': ']', '"': '"', "'": "'"}
-
-" Vue Config
-autocmd BufRead,BufNewFile *.vue setfiletype html
+" lightline settings
+source $HOME/.config/nvim-nightly/plugin-settings/lightline-settings.vim
 

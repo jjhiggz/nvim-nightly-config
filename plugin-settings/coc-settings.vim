@@ -1,4 +1,5 @@
-" syntax on "this is required for the purify theme
+"Will triger auto completion
+inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 nmap <leader>gd <Plug>(coc-definition)
 nmap <leader>gr <Plug>(coc-references)
 nnoremap <C-p> :GFiles<CR>
@@ -173,10 +174,33 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 set hidden
 
-command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
-
-vmap <leader>f  <Plug>(coc-format-selected)
-nmap <leader>f  <Plug>(coc-format-selected)
-
 nmap <leader>p $:Files<CR>
+
+let g:coc_global_extensions = [
+  \ 'coc-vimlsp',
+  \ 'coc-json',
+  \ 'coc-git',
+  \ 'coc-prettier',
+  \ 'coc-pyls',
+  \ 'coc-tslint',
+  \ 'coc-vetur',
+  \ 'coc-cssmodules',
+  \ 'coc-emmet',
+  \ 'coc-eslint',
+  \ 'coc-flutter',
+  \ 'coc-fzf-preview',
+  \ 'coc-gist',
+  \ 'coc-html',
+  \ 'coc-markdownlint',
+  \ 'coc-sh',
+  \ 'coc-snippets',
+  \ 'coc-tabnine',
+  \ 'coc-tasks',
+  \ 'coc-yank',
+  \ 'coc-highlight',
+  \ 'coc-jest',
+  \]
+  " \ 'coc-floaterm,'
+  " configure prettier
+  source ~/.config/nvim-nightly/plugin-settings/coc/prettier.vim
 

@@ -1,9 +1,11 @@
-
 " vim plug plugins
 call plug#begin('~/.vim/plugged')
 
 " vim-tmux-navigator
 Plug 'christoomey/vim-tmux-navigator'  
+
+" lightline is a status bar for vim
+ Plug 'itchyny/lightline.vim'
 
 " vimwiki is a note taking plugin
 Plug 'vimwiki/vimwiki'  
@@ -11,18 +13,16 @@ Plug 'vimwiki/vimwiki'
 " Gruvbox is a Color Scheme
 Plug 'morhetz/gruvbox'
 
-" will do syntax highlighting for json config files
-Plug 'kevinoid/vim-jsonc'
-
+Plug 'NLKNguyen/papercolor-theme'
 
 " Purify is another color scheme
 Plug 'kyoz/purify', { 'rtp': 'vim' }
 
+" will do syntax highlighting for json config files
+Plug 'kevinoid/vim-jsonc'
+
 "Indent Guides for Vim
 Plug 'thaerkh/vim-indentguides'
-
-"Auto Close Brackets
-" Plug 'townk/vim-autoclose'
 
 " mw util
 Plug 'https://github.com/MarcWeber/vim-addon-mw-utils.git'
@@ -34,8 +34,6 @@ Plug 'junegunn/vim-easy-align'
 Plug 'https://github.com/junegunn/vim-github-dashboard.git'
 "
 Plug 'https://github.com/pangloss/vim-javascript.git'
-" Multiple Plug commands can be written in a single line using | separators
-Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 "
 " On-demand loading
 " Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
@@ -47,12 +45,6 @@ Plug 'neoclide/coc-snippets'
 
 Plug 'kyazdani42/nvim-web-devicons'
 " Plug 'ryanoasis/vim-devicons'
-
-" Indent Guides
-Plug 'https://github.com/nathanaelkane/vim-indent-guides.git'
-
-" Snip Mate
-Plug 'https://github.com/garbas/vim-snipmate.git'
 
 " vim racer is rust autocomplete that I won't use
 Plug 'https://github.com/racer-rust/vim-racer.git'
@@ -85,9 +77,7 @@ Plug 'junegunn/fzf.vim'
 
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'iamcco/coc-flutter'
-Plug 'natebosch/vim-lsc'
-" Plug 'natebosch/vim-lsc-dart'
-Plug 'natebosch/vim-lsc-dart'
+
 "Easy Motion lets you move around easily
 Plug 'easymotion/vim-easymotion'
 

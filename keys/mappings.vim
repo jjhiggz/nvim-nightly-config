@@ -49,4 +49,3 @@ nnoremap <leader>qq :q<Cr>
 " reload vim
 nnoremap <leader>rl :so ~/.config/nvim-nightly/init.vim<CR>
 
-colorscheme gruvbox

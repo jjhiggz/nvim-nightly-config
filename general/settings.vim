@@ -45,3 +45,14 @@ set encoding=UTF-8
 "" You can't stop me
 cmap w!! w !sudo tee % 
 
+" colorscheme gruvbox
+" set background=light
+colorscheme papercolor
+
+let g:PaperColor_Theme_Options = {
+  \   'theme': {
+  \     'allow_bold' : 1,
+  \     'allow_italics' : 1,
+  \   }
+  \ }
+
