@@ -10,16 +10,13 @@ Plug 'itchyny/lightline.vim'
 " vimwiki is a note taking plugin
 Plug 'vimwiki/vimwiki'  
 
-" Gruvbox is a Color Scheme
-Plug 'morhetz/gruvbox'
-
 Plug 'NLKNguyen/papercolor-theme'
-
-" Purify is another color scheme
-Plug 'kyoz/purify', { 'rtp': 'vim' }
 
 " will do syntax highlighting for json config files
 Plug 'kevinoid/vim-jsonc'
+
+"floaterm
+Plug 'voldikss/vim-floaterm'
 
 "Indent Guides for Vim
 Plug 'thaerkh/vim-indentguides'
@@ -56,7 +53,7 @@ Plug 'https://github.com/codota/TabNine.git'
 Plug 'https://github.com/vim-syntastic/syntastic.git'
 
 " ale is an asyncrounous linting function
-Plug 'https://github.com/dense-analysis/ale.git'
+" Plug 'https://github.com/dense-analysis/ale.git'
 
 " Rainbow Brackets for vim
 " Plug 'https://github.com/frazrepo/vim-rainbow.git'

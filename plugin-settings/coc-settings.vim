@@ -21,7 +21,8 @@ let g:coc_global_extensions = [
   \ 'coc-yank',
   \ 'coc-highlight',
   \ 'coc-jest',
-  \ 'coc-floaterm'
+  \ 'coc-floaterm',
+  \ 'coc-solargraph'
   \]
   " \ 'coc-floaterm,'
   

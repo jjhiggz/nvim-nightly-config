@@ -1,5 +1,5 @@
 
-let g:mapleader="\\"
+let g:mapleader=" "
 " Better nav for omnicomplete
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
@@ -19,7 +19,7 @@ inoremap kj <Esc>
 " inoremap <c-u> <ESC>viwUi
 " nnoremap <c-u> viwU<Esc>
 "
-" " TAB in general mode will move to text buffer
+" TAB in general mode will move to text buffer
 nnoremap <TAB> :bnext<CR>
 " SHIFT-TAB will go back
 nnoremap <S-TAB> :bprevious<CR>
@@ -45,10 +45,13 @@ map <leader>fb :Buffers<CR>
 
 " quit buffers
 nnoremap <leader>qq :q<Cr>
+nnoremap <leader><leader> :b #<CR>
 
 " reload vim
 nnoremap <leader>rl :so ~/.config/nvim-nightly/init.vim<CR>
 
+" save
+nnoremap <leader>u :w<CR>
 "coc-mappings
 source $HOME/.config/nvim-nightly/keys/coc-mappings.vim
 
