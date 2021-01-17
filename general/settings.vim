@@ -48,6 +48,7 @@ cmap w!! w !sudo tee %
 " colorscheme gruvbox
 " set background=light
 colorscheme papercolor
+" colorscheme gruvbox8
 
 let g:PaperColor_Theme_Options = {
   \   'theme': {

@@ -1,6 +1,19 @@
 " vim plug plugins
 call plug#begin('~/.vim/plugged')
 
+" lilydjwg/colorizer makes colors show up as their respective color
+Plug 'lilydjwg/colorizer'
+
+"vim-surround is for wrapping shit
+Plug 'tpope/vim-surround'
+
+"vim-repeat makes the . command work better with plugin commoands
+Plug 'tpope/vim-repeat'
+
+"vim pandoc is a syntax highlighter for markdown I think
+Plug 'vim-pandoc/vim-pandoc'
+Plug 'vim-pandoc/vim-pandoc-syntax'
+
 " vim-tmux-navigator
 Plug 'christoomey/vim-tmux-navigator'  
 
@@ -10,7 +23,11 @@ Plug 'itchyny/lightline.vim'
 " vimwiki is a note taking plugin
 Plug 'vimwiki/vimwiki'  
 
+" Papercolor Theme
 Plug 'NLKNguyen/papercolor-theme'
+
+" GruvBox 8 might load certain things faster
+Plug 'lifepillar/vim-gruvbox8'
 
 " will do syntax highlighting for json config files
 Plug 'kevinoid/vim-jsonc'
@@ -30,6 +47,14 @@ Plug 'junegunn/vim-easy-align'
 " Any valid git URL is allowed
 Plug 'https://github.com/junegunn/vim-github-dashboard.git'
 "
+
+" Use alt + hjkl to resize windows
+" nnoremap <M-j>    :resize -2<CR>
+" nnoremap <M-k>    :resize +2<CR>
+" nnoremap <M-h>    :vertical resize -2<CR>
+" nnoremap <M-l>    :vertical resize +2<CR>
+"
+" " I hate escape more than anything else
 Plug 'https://github.com/pangloss/vim-javascript.git'
 "
 " On-demand loading
@@ -93,12 +118,8 @@ Plug 'nvim-treesitter/playground' " If you want to make your own custom colorsch
 
 
 
-" To Add
-"
-" vim repeat - makes it so the '.' keyt works on Plugin Commands
 "
 " Tagalong -  Auto edit opening and closing tags
-"
 " Ranger -  a better way of navigating files - probably at least
 "
 "

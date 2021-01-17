@@ -112,4 +112,3 @@ tnoremap   <silent>   <leader>tl   <C-\><C-n>:FloatermLast<CR>
 
 nnoremap   <silent>   <leader>tn   :FloatermNew<CR>
 tnoremap   <silent>   <leader>tn   <C-\><C-n>:FloatermNew<CR>
-

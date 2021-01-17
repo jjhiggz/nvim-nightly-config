@@ -56,4 +56,7 @@ nnoremap <leader>u :w<CR>
 source $HOME/.config/nvim-nightly/keys/coc-mappings.vim
 
 "
+" :nnoremap <Leader>rw :%s/\<<C-r><C-w>\>/
+:nnoremap <Leader>rw :%s/\<<C-r><C-w>\>//gc<Left><Left><Left>
+:nnoremap <Leader>re :%s/<C-r><C-w>//gc<Left><Left><Left>
 
